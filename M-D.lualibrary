@@ -577,7 +577,7 @@ function library:InitNotifications(text, duration, callback)
         elseif type == "success" then
             bar.BackgroundColor3 = Color3.fromRGB(131, 255, 103)
         elseif type == "information" then
-            bar.BackgroundColor3 = Color3.fromRGB(126, 117, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(124, 17, 17)
         end
     
         barCorner.CornerRadius = UDim.new(0, 2)
@@ -768,7 +768,7 @@ function library:Introduction()
     hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hashLogo.BackgroundTransparency = 1.000
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 150, 0, 150)
+    hashLogo.Size = UDim2.new(0, 448, 0, 150)
     hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=12723355855"
     hashLogo.ImageColor3 = Color3.fromRGB(124, 17, 17)
@@ -1626,7 +1626,7 @@ function library:Init(key)
             toggleDesignCorner.Name = "toggleDesignCorner"
             toggleDesignCorner.Parent = toggleDesign
 
-            toggleDesignGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(157, 115, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(181, 4, 4))}
+            toggleDesignGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(124, 17, 17)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(181, 4, 4))}
             toggleDesignGradient.Rotation = 90
             toggleDesignGradient.Name = "toggleDesignGradient"
             toggleDesignGradient.Parent = toggleDesign
